@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE listacursos SYSTEM "e19.dtd">
+<listacursos>
+    <curso>
+        <alumno>
+            <dni>12345678A</dni>
+            <nombre>María</nombre>
+            <apellido>Pérez</apellido>
+            <listaasignaturas>
+                <asignatura codigo="MAT101">
+                    <nombre>Matemáticas</nombre>
+                    <profesor>
+                        <nrp>12345</nrp>
+                        <nombre>José</nombre>
+                        <apellido>García</apellido>
+                    </profesor>
+                </asignatura>
+                <asignatura codigo="FIS101">
+                    <nombre>Física</nombre>
+                    <profesor>
+                        <nrp>23456</nrp>
+                        <nombre>María</nombre>
+                        <apellido>Rodríguez</apellido>
+                    </profesor>
+                </asignatura>
+            </listaasignaturas>
+        </alumno>
+        <alumno>
+            <dni>23456789B</dni>
+            <nombre>Carlos</nombre>
+            <apellido>Ruiz</apellido>
+            <listaasignaturas>
+                <asignatura codigo="FIS101">
+                    <nombre>Física</nombre>
+                    <profesor>
+                        <nrp>23456</nrp>
+                        <nombre>María</nombre>
+                        <apellido>Rodríguez</apellido>
+                    </profesor>
+                </asignatura>
+                <asignatura codigo="QUI101">
+                    <nombre>Química</nombre>
+                    <profesor>
+                        <nrp>34567</nrp>
+                        <nombre>David</nombre>
+                        <apellido>Fernández</apellido>
+                    </profesor>
+                </asignatura>
+            </listaasignaturas>
+        </alumno>
+    </curso>
+    <curso>
+        <alumno>
+            <dni>34567890C</dni>
+            <nombre>Pablo</nombre>
+            <apellido>Gómez</apellido>
+            <listaasignaturas>
+                <asignatura codigo="FIS101">
+                    <nombre>Física</nombre>
+                    <profesor>
+                        <nrp>23456</nrp>
+                        <nombre>María</nombre>
+                        <apellido>Rodríguez</apellido>
+                    </profesor>
+                </asignatura>
+                <asignatura codigo="QUI101">
+                    <nombre>Química</nombre>
+                    <profesor>
+                        <nrp>34567</nrp>
+                        <nombre>David</nombre>
+                        <apellido>Fernández</apellido>
+                    </profesor>
+                </asignatura>
+                <asignatura codigo="INF101">
+                    <nombre>Informática</nombre>
+                    <profesor>
+                        <nrp>45678</nrp>
+                        <nombre>Antonio</nombre>
+                        <apellido>Gómez</apellido>
+                    </profesor>
+                </asignatura>
+            </listaasignaturas>
+        </alumno>
+    </curso>
+</listacursos>

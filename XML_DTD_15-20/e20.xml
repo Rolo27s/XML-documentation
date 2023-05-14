@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE entrega SYSTEM "e20.dtd">
+<entrega>
+    <lote>
+        <pale>
+            <numero_de_cajas>10</numero_de_cajas>
+            <contenido>
+                <nombre_componente>Caja de tornillos</nombre_componente>
+                <procedencia>China</procedencia>
+                <numero_de_serie_de_componente>1234</numero_de_serie_de_componente>
+                <peso_componente>200</peso_componente>
+                <peso_unidad>gramos</peso_unidad>
+            </contenido>
+            <peso>2000</peso>
+            <forma_de_manipulacion>Por la base</forma_de_manipulacion>
+        </pale>
+        <pale>
+            <numero_de_cajas>20</numero_de_cajas>
+            <contenido>
+                <nombre_componente>Caja de tuercas</nombre_componente>
+                <procedencia>Italia</procedencia>
+                <numero_de_serie_de_componente>7823</numero_de_serie_de_componente>
+                <peso_componente>150</peso_componente>
+                <peso_unidad>gramos</peso_unidad>
+            </contenido>
+            <peso>3000</peso>
+            <forma_de_manipulacion>Por los laterales</forma_de_manipulacion>
+        </pale>
+    </lote>
+</entrega>

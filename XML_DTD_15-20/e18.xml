@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE listafacturas SYSTEM "e18.dtd">
+<listafacturas>
+    <factura fecha="2023-05-14">
+        <emisor cif="ES12345678A">
+            <nombre>Empresa A</nombre>
+            <volumenventas>1000000</volumenventas>
+        </emisor>
+        <pagador cif="ES23456789B">
+            <nombre>Cliente B</nombre>
+            <volumenventas>50000</volumenventas>
+        </pagador>
+        <importe>5000</importe>
+    </factura>
+    <factura fecha="2023-05-13">
+        <emisor cif="ES34567890C">
+            <nombre>Empresa C</nombre>
+        </emisor>
+        <pagador cif="ES45678901D">
+            <nombre>Cliente D</nombre>
+            <volumenventas>200000</volumenventas>
+        </pagador>
+        <importe>15000</importe>
+    </factura>
+    <factura fecha="2023-05-12">
+        <emisor cif="ES56789012E">
+            <nombre>Empresa E</nombre>
+            <volumenventas>500000</volumenventas>
+        </emisor>
+        <pagador cif="ES67890123F">
+            <nombre>Cliente F</nombre>
+        </pagador>
+        <importe>10000</importe>
+    </factura>
+</listafacturas>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE listacompras SYSTEM "e16.dtd">
+<listacompras>
+    <venta>
+        <ventaacredito>
+            <fechainpago>28-04-2023</fechainpago>
+            <cantidad>4</cantidad>
+        </ventaacredito>
+    </venta>
+    <venta>
+        <ventaacredito>
+            <cantidad>18</cantidad>
+        </ventaacredito>
+    </venta>
+    <venta>
+        <ventainmediata>
+            <cantidad>11</cantidad>
+            <divisa>Euros</divisa>
+        </ventainmediata>
+    </venta>
+</listacompras>

@@ -1,0 +1,13 @@
+<!ELEMENT listacursos (curso+)>
+<!ELEMENT curso (alumno+)>
+<!ELEMENT alumno (dni, nombre, apellido, apellido?, listaasignaturas)>
+<!ELEMENT listaasignaturas (asignatura+)>
+<!ATTLIST asignatura codigo CDATA #REQUIRED>
+<!-- Realmente querría poner de tipo ID, pero no podría poner el mismo codigo de asignatura a varios
+alumnos... -->
+<!ELEMENT asignatura (nombre, profesor)>
+<!ELEMENT profesor (nrp, nombre, apellido, apellido?)>
+<!ELEMENT dni (#PCDATA)>
+<!ELEMENT nombre (#PCDATA)>
+<!ELEMENT apellido (#PCDATA)>
+<!ELEMENT nrp (#PCDATA)>
